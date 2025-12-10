@@ -127,10 +127,10 @@ class MainGameViewmodel extends ChangeNotifier {
   late Timer _textTimer;
   int _currentTextIndex = 0;
   final List<String> _urSayings = [
-    "Welcome, Moon-and-Star...",
-    "Come to me through fire and war...",
-    "Come, Nerevar...",
-    "Come and look upon the heart, upon the heart.",
+    'Welcome, Moon-and-Star...',
+    'Come to me through fire and war...',
+    'Come, Nerevar...',
+    'Come and look upon the heart, upon the heart.',
   ];
 
   String get currentUrSaying => _urSayings[_currentTextIndex];
